@@ -1,0 +1,263 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #264653;
+    color: #fff; 
+}
+
+.logo img {
+    height: 80px;
+    border-radius: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    color: #264653;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.hero h1{
+    font-size: 50px;
+}
+.hero p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #2a9d8f;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    text-align: center;
+    background-color: #2a9d8f;
+    max-height: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.about img {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.factory{
+    background-color: #2a9d8f;
+    display: flex;
+    justify-content: space-between;
+
+}
+.factory img{
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+.products {
+    padding: 40px 20px;
+    background-color: #264653;
+    color: #fff;
+}
+.products h2 {
+    text-align: center;
+    font-size: 30px;
+    font-style: inherit;
+}
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    text-align: center;
+    margin: 20px;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact {
+    padding: 40px 20px;
+    background-color: #f4a261;
+    color: #fff;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact input, .contact textarea, .contact button {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact button {
+    background-color: #264653;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #2a9d8f;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #264653;
+    color: #fff;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about p{
+    max-width: 400px; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    margin-inline: 100px;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.image-container img {
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+}
+
+h1{
+    font-size: 3rem; 
+    font-weight: bold; 
+    color: #4a90e2; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+    padding: 10px;
+    border: 2px solid #4a90e2;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.delivery-car-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+.delivery-car-section h1 {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.delivery-car-section p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.car-image {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fafafa;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.car-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.car-image p {
+    padding: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.car-image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
